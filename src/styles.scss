@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import"../todo-mvc/node_modules/bootstrap/scss/functions";
+@import"../todo-mvc/node_modules/bootstrap/scss/variables";
+@import"../todo-mvc/node_modules/bootstrap/scss/mixins";
+
+@import"../todo-mvc/node_modules/bootstrap/scss/grid";
+@import"../todo-mvc/node_modules/bootstrap/scss/utilities";
+@import"../todo-mvc/node_modules/eva-icons/style/scss/eva-icons.scss";
+
+html,body{
+    height: 100%;
+    background: #f5f5f5;
+    box-sizing: border-box;
+}
+body, *{
+    padding: 0;
+    margin: 0;
+
+}
+* :not(i){
+    font-family: 'Roboto', sans-serif;
+}
